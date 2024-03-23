@@ -1,9 +1,9 @@
 {
-    "name": "duotone",
+    "name": "duotone-with-workbench",
     "displayName": "DuoTone",
     "description": "Fork of Atom's DuoTone theme for Visual Studio Code",
     "version": "1.0.0",
-    "publisher": "BrianDouglasIE",
+    "publisher": "briandgls92",
     "scripts": {
         "build": "node ./src/build.js"
     },
