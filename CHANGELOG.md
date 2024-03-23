@@ -1,11 +1,8 @@
 # Change Log
 
-## v0.3.0
-- Added Sky Theme
-- Added Earth Theme
+## v1.0.0
 
-## v0.2.0
-- Added Forest Theme
-
-## v0.1.0
-- Added Space Theme
+-   Added Sky Theme
+-   Added Earth Theme
+-   Added Forest Theme
+-   Added Space Theme

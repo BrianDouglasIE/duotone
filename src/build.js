@@ -1,21 +1,26 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
-const path = require('path');
-const themes = require('./themes');
+const fs = require("fs");
+const path = require("path");
+const themes = require("./themes");
 
-const xmlTemplate = fs.readFileSync(path.join(__dirname, './theme.xml')).toString('utf8');
+const xmlTemplate = fs
+    .readFileSync(path.join(__dirname, "./theme.json"))
+    .toString("utf8");
 const themeList = Object.keys(themes);
 
-themeList.forEach(themeName => {
+themeList.forEach((themeName) => {
     const vars = themes[themeName];
     let template = xmlTemplate;
 
     for (let prop in vars) {
-        template = template.replace(new RegExp(`__${prop}__`, 'g'), vars[prop]);
+        template = template.replace(new RegExp(`__${prop}__`, "g"), vars[prop]);
     }
-    
-    fs.writeFileSync(path.join(__dirname, '../themes/', `${themeName}.tmTheme`), template);
+
+    fs.writeFileSync(
+        path.join(__dirname, "../themes/", `${themeName}.json`),
+        template
+    );
 });
 
-console.log('Done writing themes');
+console.log("Done writing themes");

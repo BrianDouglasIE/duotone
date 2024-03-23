@@ -1,0 +1,311 @@
+{
+    "name": "DuoTone Dark __NAME__",
+    "type": "dark",
+    "colors": {
+        "foreground": "__UNO1__",
+        "editor.background": "__BACKGROUND__",
+        "editor.foreground": "__UNO1__",
+        "activityBar.background": "__BACKGROUND__",
+        "activityBar.foreground": "__UNO1__",
+        "statusBar.background": "__BACKGROUND__",
+        "statusBar.foreground": "__UNO1__",
+        "sideBar.background": "__LINE_HIGHLIGHT__",
+        "sideBar.foreground": "__UNO1__",
+        "tab.inactiveBackground": "__LINE_HIGHLIGHT__",
+        "tab.inactiveForeground": "__UNO1__",
+        "tab.activeBackground": "__BACKGROUND__",
+        "tab.activeForeground": "__UNO1__",
+        "editorGroupHeader.tabsBackground": "__LINE_HIGHLIGHT__",
+        "editor.lineHighlightBackground": "__LINE_HIGHLIGHT__",
+        "editor.lineHighlightBorder": "__LINE_HIGHLIGHT__",
+
+        "titleBar.activeBackground": "__BACKGROUND__",
+        "titleBar.activeForeground": "__UNO1__",
+        "titleBar.inactiveBackground": "__LINE_HIGHLIGHT__",
+        "titleBar.inactiveForeground": "__UNO1__",
+        "titleBar.border": "__BACKGROUND__",
+
+        "list.activeSelectionBackground": "__BACKGROUND__",
+        "list.hoverBackground": "__BACKGROUND__",
+        "list.inactiveSelectionBackground": "__BACKGROUND__",
+        "panel.background": "__LINE_HIGHLIGHT__",
+        "panel.border": "__BACKGROUND__",
+
+        "dropdown.background": "__LINE_HIGHLIGHT__",
+        "dropdown.listBackground": "__LINE_HIGHLIGHT__",
+        "dropdown.border": "__BACKGROUND__",
+
+        "button.background": "__SELECTION__",
+        "button.foreground": "__BACKGROUND__",
+
+        "input.background": "__BACKGROUND__",
+
+        "badge.background": "__UNO3__",
+
+        "statusBarItem.remoteBackground": "__UNO3__",
+        "statusBarItem.errorBackground": "__DEPRECATED_BG__",
+        "statusBarItem.hoverBackground": "__LINE_HIGHLIGHT__",
+        "statusBarItem.prominentHoverBackground": "__LINE_HIGHLIGHT__",
+
+        "menubar.selectionBackground": "__BACKGROUND__",
+        "menu.background": "__BACKGROUND__",
+        "commandCenter.background": "__LINE_HIGHLIGHT__",
+        "commandCenter.activeBackground": "__LINE_HIGHLIGHT__",
+
+        "quickInput.background": "__LINE_HIGHLIGHT__"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "__UNO5__",
+                "fontStyle": " italic"
+            }
+        },
+        {
+            "name": "Comment in Params",
+            "scope": "meta.parameters comment.block",
+            "settings": {
+                "foreground": "__DUO3__",
+                "fontStyle": " italic"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "User-defined constant",
+            "scope": [
+                "constant.character",
+                "constant.other",
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": ["variable", "support.other.variable"],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO2__"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "__DUO2__"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__DUO2__"
+            }
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Type Name",
+            "scope": ["entity.name.type", "support.type"],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "__UNO3__"
+            }
+        },
+        {
+            "name": "Tag name",
+            "scope": [
+                "entity.name.tag",
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.id"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO2__"
+            }
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__UNO1__"
+            }
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.class",
+            "settings": {
+                "foreground": "__UNO2__"
+            }
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "background": "__INVALID_BG__",
+                "fontStyle": "",
+                "foreground": "__INVALID__"
+            }
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "settings": {
+                "background": "__DEPRECATED_BG__",
+                "foreground": "__DEPRECATED__"
+            }
+        },
+        {
+            "name": "Punctuation Meta",
+            "scope": ["meta.brace", "punctuation"],
+            "settings": {
+                "foreground": "__UNO5__",
+                "background": ""
+            }
+        },
+        {
+            "name": "C Comment",
+            "scope": "comment.block.c",
+            "settings": {
+                "fontStyle": " italic",
+                "foreground": "__DUO3__"
+            }
+        },
+        {
+            "name": "CSS Property",
+            "scope": ["meta.property-name", "support.type.property-name"],
+            "settings": {
+                "foreground": "__UNO3__"
+            }
+        },
+        {
+            "name": "CSS Meta",
+            "scope": "meta.property-value",
+            "settings": {
+                "foreground": "__UNO5__"
+            }
+        },
+        {
+            "name": "Object Literal Key",
+            "scope": "meta.object-literal.key",
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Import Block Meta",
+            "scope": "variable.other.readwrite.alias",
+            "settings": {
+                "foreground": "__DUO1__"
+            }
+        },
+        {
+            "name": "Special Objects",
+            "scope": [
+                "variable.language.this",
+                "support.variable.object",
+                "support.variable.dom"
+            ],
+            "settings": {
+                "foreground": "__UNO3__"
+            }
+        },
+        {
+            "name": "Sidebar Background",
+            "scope": "sidebar",
+            "settings": {
+                "background": "__BACKGROUND__"
+            }
+        }
+    ],
+    "uuid": "__UUID__",
+    "colorSpaceName": "sRGB",
+    "semanticClass": "theme.__ID__",
+    "author": "Brian Douglas"
+}

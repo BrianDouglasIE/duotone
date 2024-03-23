@@ -2,7 +2,7 @@
 
 Based on the great [DuoTone Dark Theme for Atom](https://github.com/simurai/duotone-syntax) by [Simurai](https://github.com/simurai). Built for Visual Studio Code.
 
-![](https://raw.githubusercontent.com/sallar/vscode-duotone-dark/master/screenshot.png)
+![](https://raw.githubusercontent.com/BrianDouglasIE/duotone/master/screenshot.png)
 
 ## Installation
 

@@ -1,57 +1,57 @@
 {
-  "name": "vscode-duotone-dark",
-  "displayName": "DuoTone Dark Themes",
-  "description": "DuoTone Dark Themes for Visual Studio Code",
-  "version": "0.3.3",
-  "publisher": "sallar",
-  "engines": {
-    "vscode": "^1.5.0"
-  },
-  "scripts": {
-    "build": "node ./src/build.js"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "icon": "icon.svg",
-  "galleryBanner": {
-    "color": "#444C55",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "DuoTone Dark Sea",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sea.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Space",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Space.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Forest",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Forest.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Sky",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sky.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Earth",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Earth.tmTheme"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sallar/vscode-duotone-dark.git"
-  },
-  "homepage": "https://github.com/sallar/vscode-duotone-dark#readme",
-  "license": "MIT",
-  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>"
+    "name": "duotone",
+    "displayName": "DuoTone",
+    "description": "Fork of Atom's DuoTone theme for Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "BrianDouglasIE",
+    "scripts": {
+        "build": "node ./src/build.js"
+    },
+    "engines": {
+        "vscode": "^1.87.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#444C55",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "DuoTone Dark Sea",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sea.json"
+            },
+            {
+                "label": "DuoTone Dark Space",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Space.json"
+            },
+            {
+                "label": "DuoTone Dark Forest",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Forest.json"
+            },
+            {
+                "label": "DuoTone Dark Sky",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sky.json"
+            },
+            {
+                "label": "DuoTone Dark Earth",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Earth.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BrianDouglasIE/duotone"
+    },
+    "homepage": "https://github.com/BrianDouglasIE/duotone#readme",
+    "license": "MIT",
+    "author": "Brian Douglas <briandgls92@gmail.com>"
 }
